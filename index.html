@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1e30">
+<meta name="description" content="Zoho Recepio — an evidence-driven, AI-assisted outreach and relationship workflow. Business and technical overview, architecture, real campaign evidence, and verified case studies.">
+<meta property="og:title" content="Zoho Recepio | System Capabilities">
+<meta property="og:description" content="An evidence-driven outreach system: research, qualification, verified delivery, follow-ups, and real operational case studies.">
+<meta property="og:type" content="website">
+<title>Zoho Recepio — System Capabilities & Field Evidence</title>
+<style>
+:root{--navy:#0b1e30;--navy2:#12354b;--ink:#152d41;--muted:#577082;--teal:#007e80;--mint:#3de1c3;--line:#dbe6eb;--pale:#e8f5f3;--bg:#f6f8fb;--white:#fff;--card-shadow:0 14px 45px rgba(16,47,62,.045)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:var(--bg);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);line-height:1.67;-webkit-font-smoothing:antialiased}a{color:var(--teal)}a:hover{text-decoration:underline}button,input{font:inherit}button{cursor:pointer}::selection{background:#96ede0;color:#082333}:focus-visible{outline:3px solid #e5b45f;outline-offset:3px}h1,h2,h3,h4{line-height:1.17;letter-spacing:-.035em;margin:0}h1{font-size:clamp(2.7rem,5.3vw,5.2rem);font-weight:800}h2{font-size:clamp(1.85rem,3vw,2.6rem);font-weight:780}h3{font-size:1.16rem;font-weight:760}p{margin:.65em 0 1em}ul{padding-left:1.4rem}li{margin:.45em 0}strong{font-weight:750}
+.layout{display:grid;grid-template-columns:252px minmax(0,1fr);min-height:100vh}.sidebar{background:var(--navy);color:#d3e5eb;position:sticky;top:0;height:100vh;overflow-y:auto;padding:28px 15px 18px;scrollbar-width:thin;scrollbar-color:#456578 transparent;z-index:10}.brand{padding:5px 14px 24px;border-bottom:1px solid #ffffff18;margin-bottom:18px}.mark{display:inline-grid;place-items:center;width:43px;height:43px;color:#0a2932;background:var(--mint);border-radius:13px;font-weight:900;letter-spacing:-1px;margin-bottom:13px}.brand-name{font-size:1.1rem;font-weight:850;letter-spacing:-.02em;color:#fff}.brand-sub{font-size:.74rem;color:#9fbac5;margin-top:4px}.side-label{font-size:.65rem;letter-spacing:.15em;color:#7495a4;font-weight:800;margin:24px 14px 9px}.nav a{display:flex;align-items:flex-start;gap:11px;text-decoration:none;color:#bdd1d9;font-size:.805rem;padding:9px 11px;border-radius:9px;line-height:1.3;margin:2px 0;transition:background .15s,color .15s}.nav a span{font-variant-numeric:tabular-nums;font-size:.68rem;color:#668996;min-width:23px;padding-top:2px}.nav a:hover,.nav a.active{background:#1a3b4f;color:#fff}.nav a.active span{color:var(--mint)}.sidebar-foot{border-top:1px solid #ffffff1a;margin:22px 12px 0;padding-top:16px;color:#789caa;font-size:.7rem}
+main{min-width:0}.hero{min-height:520px;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(115deg,#091b2b 0%,#0e2d40 70%,#134b4e 100%);color:#fff;padding:clamp(50px,8vw,110px) clamp(26px,6.7vw,115px) 70px}.hero:before,.hero:after{content:"";position:absolute;z-index:-1;border-radius:50%;pointer-events:none}.hero:before{width:520px;height:520px;right:-115px;top:-205px;border:1px solid #ffffff18;box-shadow:0 0 0 75px #ffffff06,0 0 0 150px #ffffff04}.hero:after{width:300px;height:300px;right:8%;bottom:-190px;background:radial-gradient(circle,#26c6aa42,transparent 70%)}.hero-inner{max-width:980px}.eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:850;color:var(--teal);margin:0 0 13px}.hero .eyebrow{color:#65e6d4}.hero h1{max-width:900px}.hero h1 em{font-style:normal;color:#6ae6d1}.hero-lead{max-width:730px;color:#c6dce3;font-size:clamp(1.02rem,1.7vw,1.25rem);margin:26px 0 25px;line-height:1.6}.hero-meta{display:flex;flex-wrap:wrap;gap:11px;margin-top:30px}.pill{display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:7px 13px;font-size:.72rem;font-weight:700;color:#d5f1ee;border:1px solid #9ee8dc3f;background:#1942538f}.pill .dot{width:6px;height:6px;background:var(--mint);border-radius:50%}.hero-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:31px}.primary-link,.secondary-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 17px;border-radius:10px;text-decoration:none;font-weight:800;font-size:.87rem;transition:transform .15s,background .15s}.primary-link{background:var(--mint);color:#092d37}.secondary-link{border:1px solid #8eafb9a0;color:#fff}.primary-link:hover,.secondary-link:hover{transform:translateY(-2px);text-decoration:none}.primary-link:hover{background:#8df3e0}
+.content{max-width:1170px;margin:auto;padding:0 clamp(22px,5.5vw,82px) 95px}.section{padding:77px 0 67px;border-bottom:1px solid var(--line);scroll-margin-top:10px}.section:last-child{border-bottom:0}.intro{font-size:1.085rem;line-height:1.75;color:#415e6c;max-width:820px;margin:17px 0 31px}.section-heading{display:flex;gap:15px;align-items:center}.section-num{min-width:38px;height:38px;display:grid;place-items:center;background:var(--pale);border:1px solid #cbeae6;color:var(--teal);font-size:.72rem;font-weight:850;border-radius:11px}.section .eyebrow{margin-bottom:11px}.section h2{max-width:780px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:-42px;position:relative;z-index:1;margin-bottom:42px}.metric{background:#fff;border:1px solid var(--line);box-shadow:var(--card-shadow);border-radius:15px;padding:22px 18px}.metric strong{font-size:2.1rem;line-height:1.1;letter-spacing:-.05em;color:var(--teal);display:block}.metric span{font-size:.79rem;color:var(--muted);font-weight:700;display:block;margin-top:9px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:23px;box-shadow:var(--card-shadow)}.card h3{margin-bottom:10px}.card p,.card li{color:#4e6574;font-size:.9rem}.card p:last-child{margin-bottom:0}.card .mini{font-size:.72rem;color:var(--teal);font-weight:850;letter-spacing:.06em;text-transform:uppercase}.card.teal{background:var(--pale);border-color:#cde9e5}.callout{border-left:4px solid #00aa9c;background:var(--pale);padding:18px 21px;border-radius:0 12px 12px 0;margin:25px 0;font-size:.91rem}.callout strong{display:block;margin-bottom:3px}.callout p:last-child{margin-bottom:0}.subheading{font-size:1.35rem;margin:37px 0 18px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px;background:#fff}.table{width:100%;border-collapse:collapse;min-width:560px;font-size:.86rem}.table th{text-align:left;background:#102f44;color:#fff;font-size:.78rem;letter-spacing:.02em;padding:14px 15px;line-height:1.4}.table td{padding:13px 15px;border-bottom:1px solid #e5edf1;vertical-align:top}.table tbody tr:nth-child(even){background:#f6f9fa}.table tbody tr:last-child td{border-bottom:0}.table td:first-child{font-weight:760;color:#19364b}.table td:not(:first-child){color:#3e5666}.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}.step{padding:18px;background:#fff;border:1px solid #d8e6e9;border-radius:13px}.step:nth-child(n+6){background:var(--pale)}.step .step-n{font-weight:850;color:var(--teal);font-size:.75rem;letter-spacing:.12em;display:block;margin-bottom:10px}.step h3{font-size:.96rem;margin-bottom:7px}.step p{margin:0;font-size:.76rem;color:var(--muted);line-height:1.48}.timeline{position:relative;margin:0;padding:0 0 0 22px;list-style:none;border-left:2px solid #b9e2dd}.timeline li{margin:0 0 20px;padding-left:20px;position:relative}.timeline li:before{content:"";position:absolute;width:12px;height:12px;left:-29px;top:6px;background:var(--teal);box-shadow:0 0 0 5px var(--pale);border-radius:50%}.timeline time{font-size:.71rem;letter-spacing:.04em;color:var(--teal);font-weight:820}.timeline p{font-size:.9rem;color:#526b78;margin:6px 0}.tag{display:inline-block;background:#e8f4f2;border:1px solid #d0e9e6;border-radius:100px;padding:3px 9px;color:#006f72;font-size:.7rem;font-weight:800;white-space:nowrap}.tag.neutral{background:#edf2f6;border-color:#dce6eb;color:#567082}.case{background:#fff;border:1px solid var(--line);border-radius:14px;padding:23px;scroll-margin-top:20px}.case h3{margin-bottom:6px}.case p{font-size:.87rem;color:#4b6370}.case .tag{margin:6px 0 12px}.quote{margin:19px 0;padding:16px 19px;border-left:3px solid var(--teal);background:#f2f8f7;border-radius:0 10px 10px 0;color:#183649;font-size:.96rem}.quote cite{font-style:normal;display:block;margin-top:9px;font-weight:720;color:var(--muted);font-size:.71rem}.message{background:#102a3b;color:#e9f6f6;border-radius:14px;overflow:hidden;margin-top:19px}.message-top{background:#1a4050;border-bottom:1px solid #ffffff21;padding:15px 20px;font-size:.77rem;color:#c5dfdf;display:flex;gap:22px;flex-wrap:wrap}.message-body{padding:23px 25px;white-space:pre-line;line-height:1.85;font-size:.91rem}.bars{display:grid;gap:16px}.bar-line{display:grid;grid-template-columns:190px minmax(0,1fr) 44px;gap:12px;align-items:center;font-size:.83rem}.bar-line .rail{height:12px;border-radius:20px;background:#dfeaec;overflow:hidden}.bar-line .fill{height:100%;background:linear-gradient(90deg,#00838a,#38d2b7);border-radius:20px}.bar-line b{font-variant-numeric:tabular-nums}.source-note{font-size:.77rem;color:#6a8190;margin-top:15px}.controls{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}.search{max-width:300px;width:100%;border:1px solid #c6d9e1;background:white;border-radius:10px;padding:10px 12px;color:#17364a}.table caption{text-align:left;caption-side:bottom;font-size:.76rem;padding:13px;color:#6c8290}.bottom{background:#0c2434;color:#c7d7dd;padding:43px clamp(22px,5.5vw,82px);font-size:.82rem}.bottom strong{color:#fff}.bottom p{max-width:900px}.bottom a{color:#78e6d2}.top-btn{position:fixed;bottom:18px;right:18px;z-index:4;width:45px;height:45px;border:0;border-radius:50%;background:var(--teal);color:#fff;box-shadow:0 8px 30px #174a5050;opacity:0;pointer-events:none;transition:opacity .2s}.top-btn.visible{opacity:1;pointer-events:auto}.menu-btn{display:none}
+@media(max-width:1120px){.layout{grid-template-columns:220px minmax(0,1fr)}.hero{padding-left:45px;padding-right:35px}.content{padding-left:38px;padding-right:38px}.steps{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:800px){.layout{display:block}.menu-btn{display:block;position:fixed;right:15px;top:15px;z-index:30;border-radius:10px;border:1px solid #d4e4e9;color:#103449;background:#fff;padding:9px 12px;box-shadow:0 4px 16px #0001}.sidebar{position:fixed;transform:translateX(-105%);width:min(285px,85vw);transition:transform .25s;box-shadow:8px 0 24px #07152350}.sidebar.open{transform:translateX(0)}.hero{padding:85px 25px 72px;min-height:auto}.content{padding:0 23px 70px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:-35px}.grid3{grid-template-columns:1fr 1fr}.section{padding:57px 0 48px}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.bar-line{grid-template-columns:125px 1fr 35px}.search{max-width:100%}}@media(max-width:520px){.grid2,.grid3{grid-template-columns:1fr}.hero{padding-left:22px;padding-right:22px}.metrics{gap:9px}.metric{padding:17px}.metric strong{font-size:1.7rem}.metrics .metric span{font-size:.73rem}.steps{gap:9px}.step{padding:13px}.table th,.table td{padding:10px}.message-top{gap:5px;display:grid}.section-num{min-width:32px;height:32px}.section-heading{gap:8px}.bar-line{grid-template-columns:105px minmax(0,1fr) 32px;font-size:.72rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}@media print{.sidebar,.menu-btn,.top-btn,.hero-links,.controls input{display:none!important}.layout{display:block}.hero{min-height:0;padding:45px;color:#fff;print-color-adjust:exact;-webkit-print-color-adjust:exact}.content{padding:0 15px}.section{break-before:page;border:0;padding:22px 0}.card,.case,.message,.table-wrap,.callout{break-inside:avoid}body{background:#fff}.metrics{margin-top:15px}a:after{content:""}}
+</style>
+</head>
+<body>
+<button id="menu" class="menu-btn" aria-controls="sidebar" aria-expanded="false" aria-label="Open table of contents">☰ Menu</button>
+<div class="layout">
+<aside id="sidebar" class="sidebar" aria-label="Table of contents">
+  <div class="brand"><div class="mark" aria-hidden="true">ZR</div><div class="brand-name">Zoho Recepio</div><div class="brand-sub">System capabilities · Field evidence</div></div>
+  <div class="side-label">DOCUMENTATION</div>
+  <nav class="nav" id="nav">
+    <a href="#overview"><span>01</span>Executive overview</a>
+    <a href="#purpose"><span>02</span>Purpose & scope</a>
+    <a href="#workflow"><span>03</span>System architecture</a>
+    <a href="#timeline"><span>04</span>Development history</a>
+    <a href="#selection"><span>05</span>Prospect selection</a>
+    <a href="#validation"><span>06</span>Contact verification</a>
+    <a href="#message"><span>07</span>Real outbound message</a>
+    <a href="#companies"><span>08</span>Ten-company case study</a>
+    <a href="#followup"><span>09</span>Follow-ups & routing</a>
+    <a href="#replies"><span>10</span>Verified reply examples</a>
+    <a href="#cases"><span>11</span>Additional real workflows</a>
+    <a href="#metrics"><span>12</span>Operating metrics</a>
+    <a href="#resilience"><span>13</span>Safety & deliverability</a>
+    <a href="#limits"><span>14</span>Operating boundaries</a>
+    <a href="#sources"><span>15</span>Evidence methodology</a>
+    <a href="#glossary"><span>16</span>Glossary</a>
+  </nav>
+  <p class="sidebar-foot">Evidence snapshot: 19 Oct 2026.<br>Public-facing overview. No private code, accounts, keys or full prospect lists.</p>
+</aside>
+<main id="top">
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">System documentation / Verified field evidence</p>
+    <h1>Zoho Recepio<br><em>Beyond bulk outreach.</em></h1>
+    <p class="hero-lead">An evidence-driven, AI-assisted workflow for researching organizations, qualifying contacts, writing relevant messages, controlling delivery, interpreting replies, and preserving a verifiable history of every interaction.</p>
+    <div class="hero-meta"><span class="pill"><span class="dot"></span>Business + Technical</span><span class="pill"><span class="dot"></span>Real-world case study</span><span class="pill"><span class="dot"></span>October 19, 2026</span></div>
+    <div class="hero-links"><a class="primary-link" href="#overview">Explore the system ↓</a><a class="secondary-link" href="#companies">See real cases ↗</a></div>
+  </div>
+</header>
+<div class="content">
+<section id="overview" class="section">
+  <div class="metrics"><div class="metric"><strong>591</strong><span>Organizations recorded</span></div><div class="metric"><strong>633</strong><span>Contacts represented</span></div><div class="metric"><strong>901</strong><span>Interaction events</span></div><div class="metric"><strong>22</strong><span>Deal-memory files</span></div></div>
+  <p class="eyebrow">01 / Executive overview</p><h2>One controlled system. An auditable history.</h2>
+  <p class="intro">Zoho Recepio is an operator-directed outreach and relationship workflow built around Zoho Mail, an Organization → Contacts → Events ledger, evidence-based qualification, stage-specific commercial reviews, and verified message delivery. It is not simply a template generator or bulk-mail script.</p>
+  <div class="grid2">
+    <div class="card"><div class="mini">Purpose</div><h3>Research → decision → action</h3><p>Each proposed outbound action is evaluated against company evidence, contact validity, live mailbox state, policy and prior interactions before execution.</p></div>
+    <div class="card teal"><div class="mini">Demonstrated application</div><h3>Recepio.io domain outreach</h3><p>The latest field campaign concerned a domain, but that campaign is <strong>one use case</strong> of the underlying workflow. Other purposes require updated criteria and approvals.</p></div>
+  </div>
+  <div class="callout"><strong>How to read the evidence</strong>Event totals show tracked interactions, not signed contracts, revenue, guaranteed deliverability, or completed commercial conversions. Historical and live-verified records are distinguished.</div>
+</section>
+<section id="purpose" class="section">
+  <p class="eyebrow">02 / Purpose & scope</p><h2>A configurable outreach operating model.</h2>
+  <p class="intro">Conventional prospecting often separates discovery, validation, copy, sending, follow-up and customer notes. Zoho Recepio brings them into one rule-governed process. The most recent campaign’s objective determined its buyer criteria and copy; it does not define the limits of the technology.</p>
+  <div class="grid2">
+    <div class="card"><h3>Business development</h3><p>Discover organizations, confirm commercial relevance, reach attributable decision-influencing contacts and document outcomes.</p></div>
+    <div class="card"><h3>Partnership outreach</h3><p>Identify complementary businesses, partner programs and verifiable commercial channels before sending proposals.</p></div>
+    <div class="card"><h3>Service prospecting</h3><p>Use first-party evidence and validated contacts to generate relevant, source-supported B2B introductions.</p></div>
+    <div class="card"><h3>Relationship follow-up</h3><p>Track context, due dates, referrals, refusals and substantive replies without losing the thread or repeating actions.</p></div>
+  </div>
+  <div class="callout"><strong>Scope boundary</strong>These are applications the architecture can be adapted to support; this report does not claim verified deployments or outcomes for each of them.</div>
+</section>
+<section id="workflow" class="section">
+  <p class="eyebrow">03 / Technical architecture</p><h2>Ten steps. Every transition accountable.</h2>
+  <p class="intro">The workflow treats a draft, a valid address, an API response and a confirmed send as separate states. Every transition has its own evidence and controls.</p>
+  <div class="steps">
+    <div class="step"><span class="step-n">01 / DISCOVER</span><h3>Find</h3><p>Official product and business evidence</p></div>
+    <div class="step"><span class="step-n">02 / SCORE</span><h3>Qualify</h3><p>Fit, capacity, access and timing</p></div>
+    <div class="step"><span class="step-n">03 / CONTACT</span><h3>Attribute</h3><p>Named or official commercial route</p></div>
+    <div class="step"><span class="step-n">04 / VALIDATE</span><h3>Verify</h3><p>DNS/MX and exact mailbox</p></div>
+    <div class="step"><span class="step-n">05 / DEDUPE</span><h3>Reconcile</h3><p>Company, contact and prior sends</p></div>
+    <div class="step"><span class="step-n">06 / WRITE</span><h3>Personalize</h3><p>Specific claims tied to evidence</p></div>
+    <div class="step"><span class="step-n">07 / REVIEW</span><h3>Critique</h3><p>Stage-aware commercial review</p></div>
+    <div class="step"><span class="step-n">08 / GATE</span><h3>Authorize</h3><p>Fresh approval, batch and pacing</p></div>
+    <div class="step"><span class="step-n">09 / SEND</span><h3>Deliver</h3><p>Single approved Zoho sender</p></div>
+    <div class="step"><span class="step-n">10 / VERIFY</span><h3>Record</h3><p>MIME + Zoho ID + ledger event</p></div>
+  </div>
+  <h3 class="subheading">Implementation layers</h3>
+  <div class="table-wrap"><table class="table"><thead><tr><th>Layer</th><th>Operational responsibility</th></tr></thead><tbody>
+    <tr><td>Source acquisition</td><td>Official product pages, pricing, organizational activity, attributable decision routes.</td></tr>
+    <tr><td>Buyer Selection v4</td><td>Priority ranking based on product fit, commercial capacity, access and strategic evidence.</td></tr>
+    <tr><td>Draft + review</td><td>Individualized English copy, Deal-Closer checks and SHA-bound exact-message approvals.</td></tr>
+    <tr><td>Transport</td><td>Zoho Mail MCP with bounded safe-read retries; ambiguous mutations reconciled before any resend.</td></tr>
+    <tr><td>Canonical data</td><td>One Organization, multiple Contacts, append-only Events; idempotent Zoho message ID reconciliation.</td></tr>
+    <tr><td>Relationship intelligence</td><td>Human replies, referrals, objections, automated notices and deal-stage-specific context.</td></tr>
+    <tr><td>Assurance</td><td>Locks, atomic writes, tests, Git history, operating policies and invariant checks.</td></tr>
+  </tbody></table></div>
+</section>
+<section id="timeline" class="section">
+  <p class="eyebrow">04 / Evolution</p><h2>From tracking emails to governing decisions.</h2>
+  <p class="intro">Repository history documents an iterative engineering process from August to the October 19 field snapshot.</p>
+  <ol class="timeline">
+    <li><time>4–5 AUGUST 2026</time><h3>Connectivity and tracking</h3><p>Initial Zoho MCP integration, email tracker, draft queues and business-day follow-up calculations.</p></li>
+    <li><time>2–5 OCTOBER</time><h3>Verified sending and reconciliation</h3><p>Canonical ledger, controlled outbound path, new-message preflight, delivery-recovery gate and continuous verification.</p></li>
+    <li><time>6–11 OCTOBER</time><h3>Commercial context and deliverability</h3><p>Deal Memory, stage-specific replies, anti-duplicate handling, branded sender identity and delivery diagnostics.</p></li>
+    <li><time>12–16 OCTOBER</time><h3>Scoring and volume governance</h3><p>Buyer Selection, full-batch readiness, exact-message approvals, pacing and stronger automated checks.</p></li>
+    <li><time>17–18 OCTOBER</time><h3>Better research boundaries</h3><p>Research-exhaustion rules, contact-route improvement, cross-channel decisions and refined follow-up sequencing.</p></li>
+    <li><time>19 OCTOBER</time><h3>Measured operational demonstration</h3><p>21 verified first follow-ups, a ten-company verified new-outreach batch, and duplicate-safe recovery after ambiguous Zoho transport behavior.</p></li>
+  </ol>
+</section>
+<section id="selection" class="section">
+  <p class="eyebrow">05 / Company selection</p><h2>Selection by evidence, not keywords.</h2>
+  <p class="intro">A company mentioning “AI” or “front desk” is not automatically qualified. The live campaign favored companies selling receptionist or inbound-call services as a real commercial offering, supported by pricing or other attributable operating evidence.</p>
+  <div class="grid3">
+    <div class="card"><span class="tag">P1</span><h3>High-priority candidates</h3><p>Score ≥75 with strong verified commercial capacity and contact-access requirements, plus strategic qualification.</p></div>
+    <div class="card"><span class="tag">STRONG P2</span><h3>Eligible alternatives</h3><p>Score ≥60, minimum commercial-capacity evidence, and a credible qualifying route.</p></div>
+    <div class="card"><span class="tag neutral">WATCH</span><h3>Not actionable</h3><p>Relevant category alone cannot compensate for missing contact, capability or commercial proof.</p></div>
+  </div>
+  <h3 class="subheading">Decisions grounded in specific research</h3>
+  <div class="grid2">
+    <div class="card"><h3>Imagicle</h3><p>A distinct enterprise AI Virtual Receptionist product, separately marketed with a named business-development route.</p></div>
+    <div class="card"><h3>Neria.ai</h3><p>Paid AI receptionist plans and an official partner program. The system upgraded to the commercial contact under the existing Organization.</p></div>
+    <div class="card"><h3>Ruxen AI</h3><p>Initially ambiguous fit resolved with first-party evidence of a separately priced AI-first answering service; qualification was recalculated.</p></div>
+    <div class="card"><h3>ClearLit AI</h3><p>Strong category alignment but no acceptable exact-mailbox verdict; remained blocked rather than filling a batch.</p></div>
+  </div>
+</section>
+<section id="validation" class="section">
+  <p class="eyebrow">06 / Verification and safeguards</p><h2>Not every published address is sendable.</h2>
+  <p class="intro">Attribution and deliverability are different requirements. An MX record, guessed email pattern or generic role title does not substitute for a strict exact-mailbox result.</p>
+  <div class="table-wrap"><table class="table"><thead><tr><th>Control</th><th>What it prevents</th></tr></thead><tbody>
+    <tr><td>Organization deduplication</td><td>A second company record when a newly discovered email should simply be a new Contact.</td></tr>
+    <tr><td>Contact provenance</td><td>Invented names, unsupported titles, guessed addresses and unjustified buyer authority.</td></tr>
+    <tr><td>Mailbox verdict</td><td>Sending to invalid, unknown or catch-all addresses without required confirmation.</td></tr>
+    <tr><td>Zoho history check</td><td>Unintentionally emailing someone already contacted or currently engaged.</td></tr>
+    <tr><td>Batch gate</td><td>Starting a first-touch batch before all required approved members are prepared.</td></tr>
+    <tr><td>Fresh exact-message review</td><td>Sending a changed or stale draft after authorization or prior context has shifted.</td></tr>
+  </tbody></table></div>
+  <div class="callout"><strong>Evidence of restraint</strong>When Hunter and ZeroBounce credits were exhausted, an address still needed a compliant strict-valid result. Unknown and catch-all verdicts were blocked, even when the company itself was attractive.</div>
+</section>
+<section id="message" class="section">
+  <p class="eyebrow">07 / Real outbound message</p><h2>Contextual, concise and traceable.</h2>
+  <p class="intro">Actual English first-touch copy from the October 19 batch, approved for Imagicle and subsequently verified through Zoho round-trip reconciliation.</p>
+  <div class="message"><div class="message-top"><span><b>To:</b> Kai Xu · Imagicle</span><span><b>Subject:</b> Recepio.io for Imagicle AI Virtual Receptionist?</span></div><div class="message-body">Hi Kai,
+
+I came across Imagicle AI Virtual Receptionist from Imagicle, and appointment booking stood out. I own Recepio.io, a short name that points straight to "reception." It's for sale.
+
+Would you like me to send the asking range?
+
+Tariq Ziad
+Owner, Recepio.io</div></div>
+  <h3 class="subheading">How the system controlled it</h3>
+  <div class="grid2"><div class="card"><h3>Official feature evidence</h3><p>Appointment booking is supported by the vendor’s primary receptionist product materials.</p></div><div class="card"><h3>Attributed recipient</h3><p>The named role and exact professional mailbox were published by the company.</p></div><div class="card"><h3>Commercial restraint</h3><p>No fabricated budget, planned rebrand, competing bidder or urgency.</p></div><div class="card"><h3>Verified outcome</h3><p>Original content and Cold Mail event confirmed; later out-of-office reply classified as automated.</p></div></div>
+</section>
+<section id="companies" class="section">
+  <p class="eyebrow">08 / Real ten-company case study</p><h2>Every selection has a rationale.</h2>
+  <p class="intro">Ten organizations from the completed October 19 NEW batch. The result shown is the verified system action—not an assertion that the recipient expressed buying interest.</p>
+  <div class="controls"><span class="tag">10 / 10 sent and reconciled</span><input class="search" id="company-search" type="search" aria-label="Filter case-study companies" placeholder="Search a company or reason…"></div>
+  <div class="table-wrap"><table class="table" id="company-table"><thead><tr><th>Company</th><th>Selection rationale</th><th>Recorded outcome</th></tr></thead><tbody>
+    <tr><td>Abby Connect</td><td>AI receptionist and appointment booking; relevant core offering and a published contact.</td><td>First-touch verified in Zoho.</td></tr>
+    <tr><td>Imagicle</td><td>Separately marketed AI Virtual Receptionist; named business-development route.</td><td>Verified send; subsequent automated out-of-office notice.</td></tr>
+    <tr><td>getVIA</td><td>voiceVIA telephone reception and incoming-call service.</td><td>Verified send; transient folder-move ambiguity reconciled without resend.</td></tr>
+    <tr><td>Neria.ai</td><td>Paid receptionist plans and an official partner program; contact route improved.</td><td>Verified send; canonical Organization not duplicated.</td></tr>
+    <tr><td>QuickBookedAI</td><td>Independent receptionist subscriptions and agency/reseller operating model.</td><td>Verified send; founder-linked public contact with role caveat.</td></tr>
+    <tr><td>Zatio</td><td>AI receptionist for calls, messaging and appointment handling.</td><td>First-touch verified in Zoho.</td></tr>
+    <tr><td>Global AI LLC</td><td>Core receptionist service with calendar booking functionality.</td><td>First-touch verified in Zoho.</td></tr>
+    <tr><td>Ruxen AI</td><td>Independently paid AI-first phone answering; new source evidence improved fit.</td><td>Verified send; ambiguous transport acknowledged through original Zoho evidence.</td></tr>
+    <tr><td>Fonpilot</td><td>German-market AI telephone receptionist as principal product.</td><td>First-touch verified in Zoho.</td></tr>
+    <tr><td>FrontDeskReply</td><td>Vela AI Receptionist as a core front-desk and phone product.</td><td>First-touch verified in Zoho.</td></tr>
+  </tbody></table></div>
+  <p class="source-note">Only this representative sample is published. The full internal 591-organization ledger, email addresses and confidential deal materials are not exposed.</p>
+</section>
+<section id="followup" class="section">
+  <p class="eyebrow">09 / Follow-up and inbound routing</p><h2>Cadence and consent are decisions.</h2>
+  <div class="table-wrap"><table class="table"><thead><tr><th>Event</th><th>Governed behavior</th></tr></thead><tbody>
+    <tr><td>First touch</td><td>Only after evidence, mailbox validation, deduplication, review, authorization and batch readiness.</td></tr>
+    <tr><td>FU1 due</td><td>After three recipient-market business days, counted from an eligible prior send and within the same thread.</td></tr>
+    <tr><td>After FU1</td><td>No second cold follow-up to that Contact. Escalation to a separate verified decision-making Contact is narrowly controlled; otherwise conclude.</td></tr>
+    <tr><td>Human reply</td><td>Leave cold ranking; inspect the live thread, update Deal Memory and respond only to the justified next stage.</td></tr>
+    <tr><td>Automated reply</td><td>Classify as automated, not human interest. No reflexive response.</td></tr>
+    <tr><td>Refusal</td><td>Preserve opt-out/explicit rejection and stop outreach; no workaround via another email.</td></tr>
+    <tr><td>Bounce</td><td>Quarantine the failed mailbox; recovery requires a separate, attributed, verified contact and a new review.</td></tr>
+  </tbody></table></div>
+  <div class="callout"><strong>Practical proof · 19 October</strong>21 FU1 follow-ups were verified, followed by a full ten-company NEW batch. The getVIA and Ruxen transport ambiguities were reconciled from existing Zoho evidence without sending duplicates.</div>
+</section>
+<section id="replies" class="section">
+  <p class="eyebrow">10 / Actual inbound responses</p><h2>Reading intent without inventing it.</h2>
+  <p class="intro">Selected short, source-verified excerpts from real conversations. Different inbound signals produce different actions, even when they all count as “a response.”</p>
+  <div class="grid2">
+    <div class="case"><h3>Scheduley</h3><span class="tag">Methodology inquiry</span><div class="quote">“This is incredible. Thanks for sharing all those details.”<cite>Verified human reply · 6 October 2026</cite></div><div class="quote">“Yes please share diagram and architecture breakdown, would love to see it!”<cite>Verified human reply · 6 October 2026</cite></div><p><strong>System action:</strong> shared a factual architecture and source-methodology breakdown. It did not mislabel interest in the outreach system as interest in the domain.</p></div>
+    <div class="case"><h3>Rinqly</h3><span class="tag">Scope clarification</span><div class="quote">“How can I help you and what you’re looking for?”<cite>Same-thread reply · 10 October 2026</cite></div><p><strong>System action:</strong> responded with a scope clarification in the existing Zoho thread. No purchase intent, budget or commitment was inferred.</p></div>
+    <div class="case"><h3>Fono</h3><span class="tag neutral">Explicit refusal</span><div class="quote">“thank you, sorry not interested.”<cite>Verified human reply · 12 October 2026</cite></div><p><strong>System action:</strong> stopped the sequence. No additional unsolicited email or alternate-contact workaround.</p></div>
+    <div class="case"><h3>Imagicle</h3><span class="tag neutral">Automated absence</span><p>An out-of-office notice was received after the first touch.</p><p><strong>System action:</strong> classified it as non-human, avoided counting it as buyer engagement and sent no automatic reply.</p></div>
+  </div>
+</section>
+<section id="cases" class="section">
+  <p class="eyebrow">11 / Additional real workflows</p><h2>Complex interactions, handled distinctly.</h2>
+  <div class="grid2">
+    <div class="card"><span class="tag">Delivery recovery</span><h3>AI Recepcia</h3><p>An original address suffered a permanent recipient-unknown failure. The system documented a separate official contact, applied recovery and verification gates, then recorded the validated failover. The reply indicated internal routing to a product/brand team.</p><p><strong>Interpretation:</strong> credible referral, not a closed outcome.</p></div>
+    <div class="card"><span class="tag neutral">Channel change + closure</span><h3>Zynvox</h3><div class="quote">“For now, zynvox is not looking for this acquisition.”<cite>Verified WhatsApp reply · 18 October 2026</cite></div><p>The conversation moved to the buyer-requested channel. After explicit refusal, further outreach stopped; unrelated proposals were not confused with the original objective.</p></div>
+    <div class="card"><span class="tag">Founder-level discovery</span><h3>Talk To My Agent</h3><p>A CEO-signed person replied using a second email Contact under the same Organization. The response asked about the product’s origin, background, traction and markets. The reply stayed within verified facts and did not invent customer volumes or regions.</p></div>
+    <div class="card"><span class="tag">Quality control</span><h3>Transport and context failures</h3><p>An ambiguous post-send network response did not trigger a blind retry. Zoho message ID, MIME and Cold Mail location were checked against the append-only ledger before considering the action complete.</p></div>
+  </div>
+</section>
+<section id="metrics" class="section">
+  <p class="eyebrow">12 / Verified ledger snapshot</p><h2>Operational scale, with precise definitions.</h2>
+  <p class="intro">Cumulative tracking data as of 19 October 2026. These numbers refer to ledger event records, not unique clients or completed transactions.</p>
+  <div class="bars">
+    <div class="bar-line"><span>Initial sends</span><div class="rail"><div class="fill" style="width:100%"></div></div><b>555</b></div>
+    <div class="bar-line"><span>Follow-up / reapproach</span><div class="rail"><div class="fill" style="width:40.36%"></div></div><b>224</b></div>
+    <div class="bar-line"><span>Failover sends</span><div class="rail"><div class="fill" style="width:1.26%"></div></div><b>7</b></div>
+    <div class="bar-line"><span>Human reply events</span><div class="rail"><div class="fill" style="width:7.21%"></div></div><b>40</b></div>
+    <div class="bar-line"><span>Bounce events</span><div class="rail"><div class="fill" style="width:5.41%"></div></div><b>30</b></div>
+    <div class="bar-line"><span>Delay events</span><div class="rail"><div class="fill" style="width:1.08%"></div></div><b>6</b></div>
+  </div>
+  <div class="grid3" style="margin-top:27px">
+    <div class="metric"><strong>554</strong><span>Organizations with send-like events</span></div>
+    <div class="metric"><strong>23</strong><span>Organizations with a human reply</span></div>
+    <div class="metric"><strong>37</strong><span>Organizations without send-like events</span></div>
+  </div>
+  <div class="callout"><strong>Accounting note</strong>555 initial-send + 224 reapproach/follow-up + 7 failover records = 786 send-like events. The ledger includes 901 events overall. Historical reconciliation separately marked 21 older initial-send and 7 older reapproach records as unverified, not live Zoho-confirmed deliveries.</div>
+  <p class="source-note">No verified campaign revenue, signed deal count, financial conversion rate, guaranteed inbox-delivery rate or ROI is established by these metrics.</p>
+</section>
+<section id="resilience" class="section">
+  <p class="eyebrow">13 / Safety, delivery and engineering</p><h2>Designed to fail closed.</h2>
+  <div class="grid2">
+    <div class="card"><h3>Mail authentication</h3><p>SPF, DKIM, DMARC and alignment are monitored. A 34-of-35 aligned-pass snapshot was recorded; this does not prove primary-inbox placement.</p></div>
+    <div class="card"><h3>Pacing and volume</h3><p>Minimum 30-second gap, daily/hourly limits, and a HOLD on increasing send volume without sufficient clean history.</p></div>
+    <div class="card"><h3>Strict deliverability checks</h3><p>MX and exact-mailbox validation; invalid, unknown and catch-all results block execution unless expressly resolved under policy.</p></div>
+    <div class="card"><h3>Retry-safe transport</h3><p>Bounded retries for permitted read operations. Write ambiguity is reconciled through live Zoho evidence rather than automatically repeating the mutation.</p></div>
+    <div class="card"><h3>Durable data integrity</h3><p>Append-only events, SHA conflict checks, locks, atomic writes and Organization-level deduplication.</p></div>
+    <div class="card"><h3>Testing and Git</h3><p>Node.js tests, invariants and Git versioning improve traceability and regression detection; they are not an independent security certification.</p></div>
+  </div>
+</section>
+<section id="limits" class="section">
+  <p class="eyebrow">14 / Operating limits</p><h2>Strength includes knowing when to stop.</h2>
+  <div class="table-wrap"><table class="table"><thead><tr><th>Observed boundary</th><th>Implication</th></tr></thead><tbody>
+    <tr><td>Demonstrated objective</td><td>Detailed operational evidence comes from a domain outreach campaign; a different offer needs revised sourcing and policy.</td></tr>
+    <tr><td>Provider availability</td><td>Verification credits can limit the number of sendable new contacts even if suitable companies are discovered.</td></tr>
+    <tr><td>Inbox visibility</td><td>Successful authentication and Zoho send acceptance cannot guarantee delivery to the primary inbox.</td></tr>
+    <tr><td>Volume ramp</td><td>Higher targets can remain blocked until clean-day, bounce and placement requirements are met.</td></tr>
+    <tr><td>Human authorization</td><td>The current system is operator-directed, not independently running a 24/7 unattended service.</td></tr>
+    <tr><td>Reply interpretation</td><td>Refusals, referrals and information requests are not all campaign conversions.</td></tr>
+    <tr><td>External dependencies</td><td>Zoho credentials, permissions, provider credits and current source evidence must be maintained.</td></tr>
+  </tbody></table></div>
+  <div class="callout"><strong>Adapting the workflow</strong>A new use case calls for a new ICP, defensible sourcing, approved messages, fit criteria, configured sender identity, tested deliverability and accountable authorization.</div>
+</section>
+<section id="sources" class="section">
+  <p class="eyebrow">15 / Evidence methodology</p><h2>Every important claim has an owner.</h2>
+  <div class="table-wrap"><table class="table"><thead><tr><th>Verification question</th><th>Source of truth</th></tr></thead><tbody>
+    <tr><td>Was the message sent?</td><td>Live Zoho Mail, message ID, MIME comparison and Cold Mail reconciliation.</td></tr>
+    <tr><td>What happened with a company?</td><td>Canonical Organization → Contacts → Events history.</td></tr>
+    <tr><td>Why was it selected?</td><td>Current targeting view and dated first-party Buyer Research.</td></tr>
+    <tr><td>Was copy authorized?</td><td>Stage-specific Deal Review and exact-message SHA preflight.</td></tr>
+    <tr><td>Did a human reply?</td><td>Zoho inbound thread and corresponding Deal Memory, or a clearly attributed separate channel.</td></tr>
+    <tr><td>Was a follow-up due?</td><td>Recipient-market business-day calculations and event anchor eligibility.</td></tr>
+    <tr><td>Did project checks pass?</td><td>Local Node.js test suite, invariant verification and version-controlled history.</td></tr>
+  </tbody></table></div>
+  <p class="intro" style="margin-top:25px">This public report is an introductory system overview using verified internal source summaries. Source records and private operational access are not distributed. Quotes are deliberately short; phone numbers, confidential negotiating thresholds, credentials and unnecessary personal details have been omitted.</p>
+  <div class="card teal"><h3>Conclusion</h3><p>Zoho Recepio demonstrates a controlled research-to-outreach loop: source-first selection, attributable and validated contacts, individualized messaging, governed sending, measured follow-ups and durable conversation memory. Its strongest demonstrated capability is <strong>traceability and disciplined decisions</strong>, not unverified conversion figures or autonomy claims.</p></div>
+</section>
+<section id="glossary" class="section">
+  <p class="eyebrow">16 / Glossary</p><h2>Definitions for an accurate reading.</h2>
+  <div class="grid2">
+    <div class="card"><h3>Organization</h3><p>A unique company record containing any number of attributable contacts.</p></div>
+    <div class="card"><h3>Contact</h3><p>An identified person or official mailbox associated with the Organization.</p></div>
+    <div class="card"><h3>Event</h3><p>An outbound, inbound or delivery-related record; many events may belong to the same company.</p></div>
+    <div class="card"><h3>NEW / FU1</h3><p>Approved new first touch / eligible first follow-up after recipient-market business-day cadence.</p></div>
+    <div class="card"><h3>Failover</h3><p>A separately validated alternative route after documented delivery failure, never a repeat to the failed address.</p></div>
+    <div class="card"><h3>P1 / P2 / WATCH</h3><p>Buyer Selection priority tiers; WATCH does not authorize outreach without further evidence.</p></div>
+    <div class="card"><h3>Round-trip</h3><p>Comparing the Zoho-delivered MIME and message ID with the exact authorized outbound content.</p></div>
+    <div class="card"><h3>Engaged</h3><p>Human interaction managed by Deal Memory; not necessarily a deal or conversion.</p></div>
+  </div>
+</section>
+</div>
+<footer class="bottom"><strong>ZOHO RECEPIO · SYSTEM CAPABILITIES & VERIFIED FIELD EVIDENCE</strong><p>Evidence snapshot: 19 October 2026. Independent English-language system overview. The domain outreach campaign is a demonstrated application, not the sole purpose of the workflow. No private code, sensitive ledgers, API secrets or confidential negotiations are included.</p><a href="#top">Back to the beginning ↑</a></footer>
+</main>
+</div>
+<button class="top-btn" id="to-top" title="Back to top" aria-label="Back to top">↑</button>
+<script>
+(function(){
+ var menu=document.getElementById('menu'),side=document.getElementById('sidebar'),top=document.getElementById('to-top');
+ menu.addEventListener('click',function(){var on=side.classList.toggle('open');menu.setAttribute('aria-expanded',String(on));menu.textContent=on?'× Close':'☰ Menu'});
+ Array.from(document.querySelectorAll('.nav a')).forEach(function(a){a.addEventListener('click',function(){if(window.innerWidth<=800){side.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰ Menu'}})});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'){side.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰ Menu'}});
+ if('IntersectionObserver' in window){var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var id=e.target.id;document.querySelectorAll('.nav a').forEach(function(a){a.classList.toggle('active',a.hash==='#'+id)})}})},{rootMargin:'-10% 0px -70% 0px',threshold:0});document.querySelectorAll('.section').forEach(function(n){obs.observe(n)})}
+ window.addEventListener('scroll',function(){top.classList.toggle('visible',window.scrollY>700)},{passive:true});top.addEventListener('click',function(){window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})});
+ var search=document.getElementById('company-search');search.addEventListener('input',function(){var q=search.value.toLowerCase().trim();document.querySelectorAll('#company-table tbody tr').forEach(function(tr){tr.hidden=!tr.textContent.toLowerCase().includes(q)})});
+})();
+</script>
+</body></html>
